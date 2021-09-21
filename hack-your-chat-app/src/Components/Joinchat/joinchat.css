@@ -1,0 +1,71 @@
+.joinRoomContainer {
+   position: fixed;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   display: flex;
+   width: 80%;
+   justify-content: space-evenly;
+}
+
+.selectData {
+   border: 0.5px solid rgb(197, 197, 197);
+   padding: 30px;
+   text-align: center;
+}
+
+.joinChatInputField {
+   width: 300px;
+   height: 40px;
+   font-size: 2rem;
+   font-weight: 700;
+   padding: 10px;
+   margin-bottom: 20px;
+   border: 0.5px solid rgb(197, 197, 197);
+}
+
+::placeholder {
+   padding: 10px;
+   font-size: 1.2rem;
+   font-weight: 200;
+}
+
+.joinChat {
+   padding: 10px;
+   width: 320px;
+   font-size: 2rem;
+   font-weight: 700;
+   border-radius: 5px;
+   border: none;
+   background-color: black;
+   color: white;
+   cursor: pointer;
+}
+
+.joinChat:hover {
+   background-color: rgb(44, 40, 40);
+}
+
+.uploadImageContainer {
+   text-align: center;
+}
+
+.profilePhoto {
+   width: 250px;
+   height: 250px;
+   border-radius: 50%;
+   border: 2px solid gray;
+   object-fit: cover;
+}
+
+.uploadImageBtn {
+   position: relative;
+   top: -50px;
+   left: 90px;
+   border-radius: 50%;
+   font-size: 1.5rem;
+   background-color: black;
+   color: white;
+   padding: 6px 15px;
+   cursor: pointer;
+}
