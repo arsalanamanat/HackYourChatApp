@@ -8,7 +8,7 @@ export const useSocket = () => {
 };
 
 export const SocketProvider = ({ children }) => {
-   const socket = io('http://localhost:5000', {
+   const socket = io('https://hack-your-chat-app.herokuapp.com/', {
       autoConnect: false,
       reconnection: false,
    });
