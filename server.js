@@ -5,9 +5,7 @@ const http = require('http');
 const server = http.createServer(app);
 const { Server } = require('socket.io');
 
-const io = new Server(server, {
-   cors: { origin: ['http://localhost:3000', 'https://hack-your-chat-app.herokuapp.com/'] },
-});
+const io = new Server(server);
 
 io.on('connection', (socket) => {
    socket.on('joinRoom', ({ username, room, profileImage }) => {
@@ -61,4 +59,4 @@ if (process.env.NODE_ENV === 'production') {
    });
 }
 
-server.listen(5000 || process.env.PORT);
+server.listen(process.env.PORT || 5000);
