@@ -1,6 +1,6 @@
 # HackYourChatApp - Reat time chat app
 
-<img  src='Images/Login Page.JPG' width='350px' height='350px' >
+<img  src='Images/Login Page.JPG' width='550px' height='550px' >
 
 
 ## General info
