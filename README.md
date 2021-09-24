@@ -1,6 +1,6 @@
 # HackYourChatApp - Reat time chat app
 
-<img  src='Images/FirstEverChat.JPG' >
+<img  src='Images/FirstEverChat.jpg' >
 
 
 ## General info
@@ -30,7 +30,7 @@ If user do not yet have an account they can make a new Account just by giving em
 
 Once the user is authenticated now they can enter the page to join the chat room . In joinChatroom route user can select their profile image , display name and the room they want to join to start the chat. 
 
-<img  src='Images/joinRoom.JPG' >
+<img  src='Images/JoinRoom.JPG' >
 
 The App also check for the error and response with the appropriate message to the user .
 
