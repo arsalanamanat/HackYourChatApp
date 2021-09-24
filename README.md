@@ -26,7 +26,7 @@ The front end of the application is built using React. Only the authenticated us
 <img  src='Images/Login Page.JPG' >
 
 If user do not yet have an account they can make a new Account just by giving email and password:
-<img  src='Images/signUp.JPG' >
+<img  src='Images/SignUP.JPG' >
 
 Once the user is authenticated now they can enter the page to join the chat room . In joinChatroom route user can select their profile image , display name and the room they want to join to start the chat. 
 
