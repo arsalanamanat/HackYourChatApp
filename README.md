@@ -11,8 +11,8 @@ https://hack-your-chat-app.herokuapp.com/
 
 #### Test Account :
 
-username : `hello@gmail.com` 
-password : `123456`
+- username : `hello@gmail.com` 
+- password : `123456`
 
 
 ## The project was built Using
@@ -20,6 +20,7 @@ password : `123456`
 2. Socket.io
 3. Firebase
 4. Node
+5. Express
 
 
 ## Working :
@@ -41,6 +42,28 @@ The App also check for the error and response with the appropriate message to th
 
 All the user will be authenticated by firebase auth. The user can create an account as well as reset their password in case if they forget their last password.
 
+</br>
+
+### Want to Run on Local Machine ? 
+
+- If you cant to run the app on your local machine clone the repository and then follow the undermentioned steps
+
+1. Run `NPM INSTALL` to install the dependencies
+2.  open `server.js` file and replace line 8 with  ``` /
+const io = new Server(server, {
+    cors: {
+        origin: ['http://localhost:3000']
+    }
+}); ```
+
+3. The in the `hack-your-chat-app` folder go to `src/Context` and open `SocketContext.js`
+4. Change `Line: 8` URL with `http://localhost/5000`
+5. To start the React act in the terminal write `NPM START`
+6. `cd ..`
+7. In the Terminal Start Server `nodemon`
+
+
+</br>
 
 ## Further Amendments to be made ?
 
