@@ -4,11 +4,10 @@
 ## General info
 As an assignment of React module during my Bootcamp with Hack Your Future, I decided to make a real-time chat application where users can join rooms and chat with each other. The concept of building this application was taken from Brad Traversy. And I implemented it using the React and Context API. As well as the chat application is protected with the private route to let only authenticated users join the chat room . In the app, only the users in the room can see the chat messages that belong to the room. The chat app has an auto greet notifications system to welcome the User when they enter the chat room and also to indicate to the other users when a user leaves the chat room.
 
-</br>
+
 
 <img  src='Images/FirstEverChat.jpg' >
 
-</br>
 
 #### Deployed Link:
 https://hack-your-chat-app.herokuapp.com/
@@ -31,18 +30,22 @@ https://hack-your-chat-app.herokuapp.com/
 
 ### React
 The front end of the application is built using React. Only the authenticated users can enter the chatrooms. If the Users are not authenticated they will be redirected to the Login Page :
-</br>
+
+
+
 <img  src='Images/Login Page.JPG' >
-</br>
+
+
 If user do not yet have an account they can make a new Account just by giving email and password:
 
-</br>
 <img  src='Images/SignUP.JPG' >
-</br>
+
 Once the user is authenticated now they can enter the page to join the chat room . In joinChatroom route user can select their profile image , display name and the room they want to join to start the chat. 
-</br>
+
+
 <img  src='Images/JoinRoom.JPG' >
-</br>
+
+
 The App also check for the error and response with the appropriate message to the user .
 
 ### Firebase :
