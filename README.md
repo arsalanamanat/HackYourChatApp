@@ -1,15 +1,18 @@
-# HackYourChatApp - Reat time chat app
+# HackYourChatApp - Reat time chat app - <a href="https://hack-your-chat-app.herokuapp.com/">Demo</a>
 
 <img  src='Images/FirstEverChat.jpg' >
 
 
 ## General info
-As an assignemt of React module during my bootcamp with Hack Your Future I decided to make a real time chat application where users can join room and chat with each other. The concept of building this application was taken from Brad Traversy. And i implemented it using the React and Context Api . As well as the chat application is protected with the private route to let only authenticated users join the chat room . 
-In the app only the users in the room can see the chat messages that belongs to the room . The chat app has auto greet notifications system to welcome the User when they enter the chat room and also to indicate to the other users when a user leaves the chat room . 
+As an assignment of React module during my Bootcamp with Hack Your Future, I decided to make a real-time chat application where users can join rooms and chat with each other. The concept of building this application was taken from Brad Traversy. And I implemented it using the React and Context API. As well as the chat application is protected with the private route to let only authenticated users join the chat room . In the app, only the users in the room can see the chat messages that belong to the room. The chat app has an auto greet notifications system to welcome the User when they enter the chat room and also to indicate to the other users when a user leaves the chat room.
 
 #### Deployed Link:
-
 https://hack-your-chat-app.herokuapp.com/
+
+#### Test Account :
+
+username : `hello@gmail.com` 
+password : `123456`
 
 
 ## The project was built Using
