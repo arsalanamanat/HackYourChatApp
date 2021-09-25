@@ -1,10 +1,12 @@
 # HackYourChatApp - Reat time chat app - <a href="https://hack-your-chat-app.herokuapp.com/">Demo</a>
 
-<img  src='Images/FirstEverChat.jpg' >
-
 
 ## General info
 As an assignment of React module during my Bootcamp with Hack Your Future, I decided to make a real-time chat application where users can join rooms and chat with each other. The concept of building this application was taken from Brad Traversy. And I implemented it using the React and Context API. As well as the chat application is protected with the private route to let only authenticated users join the chat room . In the app, only the users in the room can see the chat messages that belong to the room. The chat app has an auto greet notifications system to welcome the User when they enter the chat room and also to indicate to the other users when a user leaves the chat room.
+
+<img  src='Images/FirstEverChat.jpg' >
+
+
 
 #### Deployed Link:
 https://hack-your-chat-app.herokuapp.com/
@@ -58,14 +60,16 @@ REACT_APP_FIREBASE_STORAGE_BUCKET = ""
 REACT_APP_FIREBASE_MESSAGING_SENDER_ID = ""
 REACT_APP_FIREBASE_APP_ID = ""
 ```
+
 Add your firebase configration data 
 
-4.  open `server.js` file and replace line 8 with  ```
+4.  open `server.js` file and replace line 8 with  `
 const io = new Server(server, {
     cors: {
         origin: ['http://localhost:3000']
     }
-}); 
+}); `
+
 
 3. The in the `hack-your-chat-app` folder go to `src/Context` and open `SocketContext.js`
 4. Change `Line: 8` URL with `http://localhost/5000`
