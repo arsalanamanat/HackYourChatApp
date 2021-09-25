@@ -53,7 +53,8 @@ All the user will be authenticated by firebase auth. The user can create an acco
 1. Run `NPM INSTALL` to install the dependencies
 2. create a `.env` file and add 
 
-```REACT_APP_FIREBASE_API_KEY = ""
+``` javascript
+REACT_APP_FIREBASE_API_KEY = ""
 REACT_APP_FIREBASE_AUTH_DOMAIN = ""
 REACT_APP_FIREBASE_PROJECT_ID = ""
 REACT_APP_FIREBASE_STORAGE_BUCKET = ""
@@ -63,12 +64,14 @@ REACT_APP_FIREBASE_APP_ID = ""
 
 Add your firebase configration data 
 
-4.  open `server.js` file and replace line 8 with  `
+4.  open `server.js` file and replace line 8 with  
+``` javascript
 const io = new Server(server, {
     cors: {
         origin: ['http://localhost:3000']
     }
-}); `
+}); 
+```
 
 
 3. The in the `hack-your-chat-app` folder go to `src/Context` and open `SocketContext.js`
